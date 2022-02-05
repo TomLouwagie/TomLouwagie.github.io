@@ -2,6 +2,7 @@ body {
   height: 100vh;
   font-family: 'Work Sans', sans-serif;
   font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
   /* colors: https://coolors.co/0a0908-cce3de-eaf4f4-a63d40-577399 */
   background: 
     linear-gradient(to left top, rgba(87, 115, 153, 1) 0%/*bottom-right color*/, rgba(234, 244, 244, 1) 100% /*top-left color*/),
@@ -22,7 +23,7 @@ h1, h2, h3, h4 {
 
 /* mouse over link */
 a:link {
-  color: black;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 /* mouse over link */
