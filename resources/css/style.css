@@ -1,4 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
 body {
-  display: block;
-  margin: 8px;
+  height: 100vh;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 17px;
+  /* colors: https://coolors.co/0a0908-cce3de-eaf4f4-a63d40-577399 */
+  background: 
+    linear-gradient(to left top, rgba(87, 115, 153, 1) 0%/*bottom-right color*/, rgba(234, 244, 244, 1) 100% /*top-left color*/),
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1))/*"faked" black background make sure to add last or it will appear before the transparent/colored layer*/;
+}
+
+a:link {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.6);
 }
