@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
-
 body {
   height: 100vh;
   font-family: 'Work Sans', sans-serif;
@@ -10,17 +8,35 @@ body {
     linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1))/*"faked" black background make sure to add last or it will appear before the transparent/colored layer*/;
 }
 
-.container {
-  width: 500px;   /* This sets the width */
-  margin: 0 auto; /* This automatically sets left/right margins */
-  text-align: center
+h1, h2, h3, h4 {
+  font-weight:700;
 }
 
+.flex-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* mouse over link */
 a:link {
   color: black;
 }
 
+/* mouse over link */
 a:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* visited link */
+a:visited {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* selected link */
+a:active {
   color: rgba(0, 0, 0, 0.7);
 }
 
@@ -35,11 +51,12 @@ a:hover {
 }
 
 .avatar-large {
-  width: 56px;
+  width: 45px;
   border-radius: 50%;
 }
 
 .navbar-lewagon {
+  margin: 10px 0px;
   justify-content: space-between;
 }
 
