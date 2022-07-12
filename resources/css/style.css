@@ -14,6 +14,9 @@ h1, h2, h3, h4 {
 }
 
 .flex-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 540px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -49,22 +52,4 @@ a:active {
 .list-inline {
   list-style: none;
   padding-left: 0px;
-}
-
-.avatar-large {
-  width: 45px;
-  border-radius: 50%;
-}
-
-.navbar-lewagon {
-  margin: 10px 0px;
-  justify-content: space-between;
-}
-
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
 }
